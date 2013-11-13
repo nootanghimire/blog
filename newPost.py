@@ -64,6 +64,9 @@ if(customDate.lower() == "no"):
 	dateArray = string.split(newDate, "/")
 else: 
 	dateArray = time.strftime("%Y/%m/%d").split("/");
-cpyStr = askTitle(makeDir(dateArray), dateArray[0]+"/"+dateArray[1]+"/"+dateArray[2])
+dirDay = makeDir(dateArray)	
+cpyStr = askTitle(dirDay, dateArray[0]+"/"+dateArray[1]+"/"+dateArray[2])
 pyperclip.copy(cpyStr);
 print("The following string: \n\n\t"+ cpyStr+"\n\nhas been copied to clipboard! Paste in where it suits.");
+os.system("nautilus " + dirDay)
+exit()
