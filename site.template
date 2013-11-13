@@ -1,7 +1,6 @@
-	<link href='http://fonts.googleapis.com/css?family=Just+Me+Again+Down+Here' rel='stylesheet' type='text/css'>
+<link href='http://fonts.googleapis.com/css?family=Just+Me+Again+Down+Here' rel='stylesheet' type='text/css'>
 	<link href='http://fonts.googleapis.com/css?family=Share+Tech+Mono' rel='stylesheet' type='text/css'>
 	<link href='http://fonts.googleapis.com/css?family=Elsie' rel='stylesheet' type='text/css'>
-	
 	<style>
 	body{
 		margin: 0;
@@ -12,7 +11,7 @@
 	#main-banner{
 		font-family: "Just Me Again Down Here", cursive, sans-serif;
 		font-size: 60px;
-		padding: 30px;
+		padding-left: 30px;
 	}
 
 	a{
@@ -30,7 +29,7 @@
 
 	}
 	</style>
-		<style>
+	<style>
 	#someWhat-main-Banner{
 		padding-left: 20px;
 		font-size: 35px;
@@ -41,6 +40,6 @@
 		padding:20px;
 	}
 	</style>
-</head>
+</head>	
 <body>
-	<div id="main-banner">Cipher's Blog<span><a href="http://blog.nootan.com.np">Back to list!</a></span></div>
+	<div id="main-banner">Cipher's Blog<span style="padding-left:20px;"><a href="http://blog.nootan.com.np">Click to go back to list!</a></span></div>
